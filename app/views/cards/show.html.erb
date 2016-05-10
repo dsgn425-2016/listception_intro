@@ -1,0 +1,6 @@
+<h1>Cards #<%= @card.id %></h1>
+<p><strong><%= @card.title %>:</strong></p>
+<div><%= @card.desc %></div>
+
+<a href="/cards/<%= @card.id %>/edit">Edit</a> |
+<a href="/cards/<%= @card.id %>/destroy">Destroy</a>
